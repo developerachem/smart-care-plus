@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark {
+  --primary: #b8d6ff;
+  --secondary: #4154f1;
+  --white: #1e293b;
+  --body: #0d141f;
+  --border: #15151565;
+  --bgc: #222e3c;
+  --gray: #1e293b;
+  --btn-text: #ffffffa7;
+  --text: #ffffffbe;
+  --service: #ffffffbe;
+  --service-hover: #ffffff;
+  --hr: #fff;
+  --menu-text:#4153f11e
+  --blueColor: #b8d6ff
+}
+
+.light {
+  --white: #fff;
+  --primary: #043170;
+  --secondary: #4154f1;
+  --body: #f6f9ff;
+  --border: #ddd;
+  --bgc: #fff;
+  --gray: #ffffff;
+  --btn-text: #043170;
+  --text: #000;
+  --service: #043170;
+  --service-hover: #ffffff;
+  --hr: #dddddd;
+  --menu-text:#4153f11e
+  --blueColor: #0d6efd
+}
+
+button[type="submit"] {
+  color: var(--white) !important;
+}
+
+.inputFont {
+  font-size: 16px;
+}
+
+.pointer_none {
+  pointer-events: none;
+}
+
+.btn.react-tabs__tab--selected {
+  background-color: var(--primary) !important;
+  color: var(--white) !important;
+  border: none !important;
+  outline: none;
+}
+
+.border,
+.border-b,
+.border-s,
+.border-t,
+.border-e {
+  border-color: var(--border) !important;
+}

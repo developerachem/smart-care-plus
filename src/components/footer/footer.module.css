@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.footer a {
+  display: block;
+}
+
+.footer a img {
+  width: 70px;
+}
+
+.footer a:first-child img {
+  width: 110px;
+}

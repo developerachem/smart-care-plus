@@ -1,0 +1,36 @@
+.loginPage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--body);
+}
+
+.pageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  height: 100vh;
+}
+
+.loginCard {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px 25px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.144);
+  width: 400px;
+  background-color: var(--bgc);
+}
+
+.loginCard h1 {
+  text-align: center;
+  color: var(--primary);
+}
+
+.loginCard img {
+  margin: auto;
+  width: 80px;
+  margin-bottom: 15px;
+}

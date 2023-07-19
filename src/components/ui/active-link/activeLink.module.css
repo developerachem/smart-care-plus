@@ -1,0 +1,30 @@
+.Link {
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    /* background: var(--menu-text); */
+    gap: 10px;
+    margin: 2px 8px;
+    border-radius: 8px;
+    color: var(--primary);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.Link:hover {
+    background: var(--menu-text);
+    color: var(--secondary);
+}
+.Link span {
+    font-size: 15px;
+}
+.MenuItem {
+    display: flex;
+    align-items: center;
+  }
+  
+.Icon {
+    margin-right: 5px;
+}
+  

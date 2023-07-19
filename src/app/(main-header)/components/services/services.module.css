@@ -1,0 +1,26 @@
+.service{
+    border:  1px solid var(--secondary);
+    color: var(--secondary);
+    transition: all ease-in-out .3s;
+}
+.service p,
+.service img,
+.service h2{
+    color: var(--service);
+}
+.service:hover{
+    border:  1px solid var(--secondary);
+    background: var(--secondary);
+    color: var(--gray);
+    
+}
+.service:hover p,
+.service:hover img,
+.service:hover h2
+{
+    color: var(--service-hover);
+    filter: brightness(0) invert(1);
+}
+.main{
+    gap: 12px;
+}

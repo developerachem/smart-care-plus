@@ -1,0 +1,15 @@
+.file {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+.file:hover {
+    color: var(--secondary);
+}
+.folderTree {
+    padding: 0 6px;
+    font-size: 18px;
+}
+.folderTree:hover {
+    /* background: var(--primary); */
+    color: var(--secondary);
+}
