@@ -7,6 +7,8 @@ import Table from './Table';
 import VitalForm from './VitalForm';
 import HistoryOpd from './opd/HistoryOpd';
 import GynObsHistories from './opd/Gyn-obs-histories';
+import ExaminationDiagnosis from './opd/Examination-diagnosis';
+import Plan from './opd/Plan';
 
 const History = () => {
 
@@ -70,8 +72,13 @@ const History = () => {
                     {/* <HistoryOpd /> */}
 
                     {/* Medical Encounter (OPD) --> Gyn & obs Histories */}
+                    {/* <GynObsHistories/> */}
 
-                    <GynObsHistories/>
+                    {/* Medical Encounter (OPD) --> Examination & Diagnosis */}
+                    {/* <ExaminationDiagnosis/> */}
+
+                    {/* Medical Encounter (OPD) --> Plan */}
+                    <Plan/>
 
                 </div>
                 {/* Right Side */}
